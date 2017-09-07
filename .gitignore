@@ -1,0 +1,4 @@
+__pycache__/
+db.sqplite3
+*.pyc
+migrations/
