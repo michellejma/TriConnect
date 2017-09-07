@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>TriConnect App</title>
-  </head>
-  <body>
-    Hello TriConnect App
-  </body>
-</html>
+<!-- extends off of block page on base.html --> 
+<!-- all code must be written between the block -->
+{% extends 'base.html' %}
+
+{% block page %}
+  <p>Home Page</p>
+  <a href='/gigs/1'>Gig Detail</a>
+{% endblock %}

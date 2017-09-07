@@ -20,4 +20,5 @@ from TriConnectapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name='home'), #views.home triggers home function in views.py
+    url(r'^gigs/(?P<id>[0-9]+)/$', views.gig_detail, name='gig_detail') #create a pattern for urls, id just has to be a number
 ]
